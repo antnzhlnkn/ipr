@@ -4,7 +4,6 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1440px;
   width: 100%;
 }
 
@@ -80,7 +79,7 @@ body {
 }
 
 .beer-card {
-  width: calc(100%/6);
+  width: calc(100%/7);
   min-width: 200px;
   height: auto;
   background: #FFFFFF;

@@ -4,7 +4,6 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1440px;
   width: 100%;
 }
 
@@ -89,7 +88,7 @@ body {
 
 .beer-card {
   min-height: 288px;
-  width: calc(100%/6);
+  width: calc(100%/7);
   min-width: 200px;
   height: auto;
   background: #FFFFFF;
@@ -97,7 +96,7 @@ body {
   margin: 10px;
 }
 
-.beer-card_title {
+.beer-card__title {
   font-family: Exo, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -121,12 +120,80 @@ body {
 
 .beer-card__image-wrapper {
   flex: auto;
-  transform: translateY(20%);
 }
 
 .beer-card__image {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-height: 200px;
+  max-height: 250px;
+}
+
+.beer-card__abv {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Exo, sans-serif;
+  color: #FFFFFF;
+  position: absolute;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.beer-about {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.beer-description {
+  background: #FFFFFF;
+  border-radius: 3px;
+  margin: 10px;
+  min-height: 288px;
+  width: calc(90% - calc(100%/7));
+}
+
+.beer-description__title {
+  margin: 10px;
+  font-family: Exo, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.beer-description hr {
+  border: 3px solid rgba(79, 79, 79, 0.69);
+  margin-top: 5%;
+  margin-left: 10px;
+  max-width: 170px;
+}
+
+.beer-description__tips {
+  font-family: Exo, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 2% 10px 10px;
+  color: #4F4F4F;
+}
+
+.beer-other {
+  margin: 10px;
+  min-height: 200px;
+  background: #FFFFFF;
+  border-radius: 3px;
+  width: calc(90% + 20px);
+}
+
+.beer-card__abv-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 6px;
 }
