@@ -12,8 +12,7 @@
 
 .content__title_border {
   padding-left: 10px;
-  content: '';
-  border-left: 3px solid #FFFFFF;
+  border-left: 3px solid #000000;
 }
 
 .beer-card {
