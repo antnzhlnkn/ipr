@@ -10,11 +10,10 @@
   margin: 10px;
 }
 
-.content__title::before {
-  padding: 10px;
+.content__title_border {
+  padding-left: 10px;
   content: '';
   border-left: 3px solid #FFFFFF;
-  height: 40%;
 }
 
 .beer-card {
