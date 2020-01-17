@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header {
+    background: #4F4F4F;
+    display: flex;
+    min-height: 80px;
+}
+
+.header__title {
+    font-family: Exo, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 5%;
+}
+
+.header__link-container {
+    display: flex;
+    margin-left: 2%;
+}
+
+.header__link {
+    font-family: Exo, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.header__link::before {
+    padding: 10px;
+    content: '';
+    border-left: 3px solid #FFFFFF;
+    height: 40%;
+}
+
+.footer {
+    min-height: 100px;
+    background: #4F4F4F;
+}
+
+.content {
+    background: #E5E5E5;
+    font-family: Exo, sans-serif;
+    padding: 3%;
+}
+
+.content__title {
+    font-family: Exo, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 10px;
+}
+
+.content__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.beer-card {
+    width: calc(100%/7);
+    min-width: 200px;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.beer-card_title {
+    font-family: Exo, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+}
+
+.beer-card__tagline {
+    font-family: Exo, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+}
+
+.beer-card__image-wrapper {
+    flex: auto;
+}
+
+.beer-card__image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 200px;
+}
