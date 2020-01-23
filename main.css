@@ -33,6 +33,7 @@ a {
 
 .header__link-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .header__link {
