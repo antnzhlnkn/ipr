@@ -8,7 +8,7 @@ a {
 
 .container {
     margin: 0 auto;
-    width: 100%;
+    min-width: 100vh;
 }
 
 .header {
