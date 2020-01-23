@@ -103,3 +103,10 @@
   justify-content: flex-end;
   margin: 6px;
 }
+
+@media screen and (max-width: 600px) {
+  .content__title, .beer-about, .beer-description, .beer-other {
+    width: 100%;
+    margin: 10px 0 0;
+  }
+}
